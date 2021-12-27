@@ -5,10 +5,21 @@ body {
 	height: 100%;
 }
 
+@font-face {
+	font-family: "terminex";
+	src: url("Terminex.ttf");
+}
+
 body {
 	background-color: black;
 	color: rgb(38, 228, 33);
 	margin: 0;
 	padding: 8px;
 	box-sizing: border-box;
+
+	font-family: terminex, monospace;
+}
+
+:link, :visited {
+	color: rgb(38, 228, 33);
 }
